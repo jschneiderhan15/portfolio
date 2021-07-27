@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <script src= "functions.js"></script>
+    <head>
+        <title>Projects - Frontier Frenzy</title>
+        <link rel = "stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class = "header">
+            <h1>JACK SCHNEIDERHAN</h1>
+            <h2 class = "subheader">A portfolio for game development / design</h2>
+            <div class = "header-buttons">
+                <a href = "index.html"><button>Projects</button></a>
+                <a href = "resume.html"><button>Resume</button></a>
+                <a href = "aboutme.html"><button>About Me</button></a>
+            </div>
+        </div>
+        <div class = "slideshow">
+            <div class = "mySlides fade">
+                <img src = "images/frontierfrenzy/sc1.png" style = "width: 100%">
+            </div>
+            <div class = "mySlides fade">
+                <img src = "images/frontierfrenzy/sc2.png" style = "width: 100%">
+            </div>
+            <div class = "mySlides fade">
+                <img src = "images/frontierfrenzy/sc3.png" style = "width: 100%">
+            </div>
+            <div class = "mySlides fade">
+                <img src = "images/frontierfrenzy/sc4.png" style = "width: 100%">
+            </div>
+            <div class = "mySlides fade">
+                <img src = "images/frontierfrenzy/sc5.png" style = "width: 100%">
+            </div>
+            <div class = "mySlides fade">
+                <img src = "images/frontierfrenzy/sc6.png" style = "width: 100%">
+            </div>
+            <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
+            <a class = "next" onclick = "plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style = "text-align:center;">
+            <span class = "dot" onclick = "currentSlide(1)"></span>
+            <span class = "dot" onclick = "currentSlide(2)"></span>
+            <span class = "dot" onclick = "currentSlide(3)"></span>
+            <span class = "dot" onclick = "currentSlide(4)"></span>
+            <span class = "dot" onclick = "currentSlide(5)"></span>
+            <span class = "dot" onclick = "currentSlide(6)"></span>
+        </div>
+        <script>showSlides(1)</script>
+        <div class = "infobox">
+            Frontier Frenzy is my second game that I developed in Unity, and it branches out much farther than Sprocket does. This rail shooter takes the player through a
+            space environment, shooting down enemy space ships as they go. This game was also developed through a Udemy course, and it builds on the foundation from my
+            previous game to make a somewhat more robust experience for the player.
+            For more detail on Frontier Frenzy, check out my <a href = "https://github.com/jschneiderhan15" target = "_blank">github</a> for all the files involved. <br>
+            <a class = "center" href = "zips/FrontierFrenzy.zip">Click here for a playable version of the game!</a>
+        </div>
+    </body>
+</html>
