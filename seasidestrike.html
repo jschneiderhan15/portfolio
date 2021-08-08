@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <script src= "functions.js"></script>
+    <head>
+        <title>Projects - Seaside Strike</title>
+        <link rel = "stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class = "header">
+            <h1>JACK SCHNEIDERHAN</h1>
+            <h2 class = "subheader">A portfolio for game development / design</h2>
+            <div class = "header-buttons">
+                <a href = "index.html"><button>Projects</button></a>
+                <a href = "resume.html"><button>Resume</button></a>
+                <a href = "aboutme.html"><button>About Me</button></a>
+            </div>
+        </div>
+        <div class = "slideshow">
+            <div class = "mySlides fade">
+                <img src = "images/seasidestrike/sc1.png" style = "width: 100%">
+            </div>
+            <div class = "mySlides fade">
+                <img src = "images/seasidestrike/sc2.png" style = "width: 100%">
+            </div>
+            <div class = "mySlides fade">
+                <img src = "images/seasidestrike/sc3.png" style = "width: 100%">
+            </div>
+            <div class = "mySlides fade">
+                <img src = "images/seasidestrike/sc4.png" style = "width: 100%">
+            </div>
+            <div class = "mySlides fade">
+                <img src = "images/seasidestrike/sc5.png" style = "width: 100%">
+            </div>
+            <div class = "mySlides fade">
+                <img src = "images/seasidestrike/sc6.png" style = "width: 100%">
+            </div>
+            <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
+            <a class = "next" onclick = "plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style = "text-align:center;">
+            <span class = "dot" onclick = "currentSlide(1)"></span>
+            <span class = "dot" onclick = "currentSlide(2)"></span>
+            <span class = "dot" onclick = "currentSlide(3)"></span>
+            <span class = "dot" onclick = "currentSlide(4)"></span>
+            <span class = "dot" onclick = "currentSlide(5)"></span>
+            <span class = "dot" onclick = "currentSlide(6)"></span>
+        </div>
+        <script>showSlides(1)</script>
+        <div class = "infobox">
+            Seaside Strike is my third game from the Udemy course I've been taking over the Summer. It's a simple demo of a tower defense game, but what
+            I found most fun about this game was making my own assets. I used the program MagicaVoxel, recommended by the teacher of the course, and I had 
+            a great time making my own beach related objects. My favorite part of this game is the voxel art style, as I think it looks very neat and creates
+            a cozy world for the player to enjoy.
+            <a class = "center" href = "zips/Sprocket.zip">Click here for a playable version of the game!</a>
+        </div>
+    </body>
+</html>
